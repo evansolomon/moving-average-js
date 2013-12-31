@@ -1,0 +1,15 @@
+{
+  "name": "moving-average-js",
+  "version": "0.0.1",
+  "description": "Calculate the moving average from an array.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --check-leaks --reporter spec"
+  },
+  "author": "Evan Solomon",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.16.2",
+    "js-yaml": "~3.0.1"
+  }
+}
