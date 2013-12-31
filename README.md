@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/evansolomon/moving-average-js.png)](https://travis-ci.org/evansolomon/moving-average-js)
+
 # Moving Average
 
 Example usage.
