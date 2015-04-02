@@ -62,4 +62,4 @@
   else {
     this.movingAverage = movingAverage;
   }
-})(this)
+}).call(this)
