@@ -6,7 +6,7 @@
   var origMovingAverage = ctx.movingAverage
 
   function isNumber(obj) {
-    if (isNaN(obj)) {
+    if (isNaN(obj) || !isFinite(obj)) {
       return false
     }
 
