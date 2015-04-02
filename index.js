@@ -1,5 +1,7 @@
 /* global define:false */
 (function () {
+  'use strict'
+  
   var ctx = this
   var origMovingAverage = ctx.movingAverage
 
@@ -60,4 +62,4 @@
   else {
     this.movingAverage = movingAverage;
   }
-})()
+}).call(this)
